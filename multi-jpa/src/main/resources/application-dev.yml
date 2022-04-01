@@ -1,0 +1,18 @@
+spring:
+
+  # mysql 配置
+  datasource:
+    primary:
+      url: jdbc:mysql://localhost:3306/multi_db1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
+
+    secondary:
+      url: jdbc:mysql://localhost:3306/multi_db2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
+
+
+
+
+
