@@ -1,12 +1,5 @@
 package cn.darkjrong.multijpa.config;
 
-/**
- * 主要数据源配置
- *
- * @author Rong.Jia
- * @date 2022/04/01
- */
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties;
@@ -26,6 +19,12 @@ import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 import java.util.Map;
 
+/**
+ * 主要数据源配置
+ *
+ * @author Rong.Jia
+ * @date 2022/04/01
+ */
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
