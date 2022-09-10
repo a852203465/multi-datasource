@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.darkjrong</groupId>
-        <artifactId>multi-data-source</artifactId>
+        <artifactId>multi-datasource</artifactId>
         <version>1.0</version>
     </parent>
     <groupId>cn.darkjrong</groupId>

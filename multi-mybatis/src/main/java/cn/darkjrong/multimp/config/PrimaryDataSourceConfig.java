@@ -52,6 +52,7 @@ public class PrimaryDataSourceConfig {
         final MybatisSqlSessionFactoryBean sessionFactory = new MybatisSqlSessionFactoryBean();
         sessionFactory.setDataSource(dataSource);
         sessionFactory.setGlobalConfig(mybatisPlusProperties.getGlobalConfig());
+        sessionFactory.setConfiguration(mybatisPlusProperties.getConfiguration());
         sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:/mappers/primary/*.xml"));
         sessionFactory.setTypeAliasesPackage("cn.darkjrong.multimp.entity.primary");
         return sessionFactory.getObject();
