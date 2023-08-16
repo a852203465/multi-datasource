@@ -21,6 +21,7 @@
     <modules>
         <module>multi-jpa</module>
         <module>multi-mybatis</module>
+        <module>multi-redis</module>
     </modules>
 
     <scm>

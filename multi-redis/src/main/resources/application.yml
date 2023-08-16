@@ -1,0 +1,18 @@
+spring:
+
+  profiles:
+    active: dev
+
+  # redis 缓存配置
+  cache:
+    redis:
+      time-to-live: 60s
+    type: redis
+  redis:
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 50
+        max-idle: 200
+        min-idle: 5
+        max-wait: 10000ms

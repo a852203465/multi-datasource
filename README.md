@@ -1,1 +1,1 @@
-# JPA, Mybatis 多数据源配置
+# JPA, Mybatis, redis 多数据源配置
